@@ -1,4 +1,4 @@
-package appearMost;
+package leetcode169;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ public class FindMajorityElementFunction {
 //		return nums[nums.length/2];
 //	}
 
-	// Boyer-Moore Majority Vote Algorithm
+	// Boyer-Moore Majority Vote Algorithm, O(n) time
 	public int majorityElement(int[] nums) {
 		// Count will be more than one for the value who appear the most
 		int count = 0;
